@@ -1,0 +1,9 @@
+version: '3'
+services:
+  redis:
+    user: "0:0"
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+    volumes:
+      - "/Users/shuhei.shogen/tmp/data/:/data"
